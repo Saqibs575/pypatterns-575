@@ -235,7 +235,7 @@ All types of patterns can be found in pypatterns file of `pypapatterns-575` pack
 pip install pypatterns-575
 ```
 ```python
-from pypatterns-575 import star_patterns
+from pypatterns import star_patterns
 ```
 ---------------------------
 ---------------------------
@@ -286,7 +286,7 @@ star_patterns.get_star_hollow_pyramid()
 
 ```python
 star_patterns.get_star_pyramid(n = 10 , inverted = True)
-star_patterns.get_star_hollow_pyramid(n = 10 , inverted = True)
+
 ```
 
 ### Output of the above code is;
@@ -303,8 +303,18 @@ star_patterns.get_star_hollow_pyramid(n = 10 , inverted = True)
                       *  *  *  *  * 
                          *  *  * 
                             * 
+```
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
 
+------------------------
 
+```python
+star_patterns.get_star_hollow_pyramid(n = 10 , inverted = True)
+```
+
+### Output of the above code is;
+
+```python
 * * * * * * * * * * * * * * * * * * * 
   *                               *
     *                           *
@@ -317,6 +327,7 @@ star_patterns.get_star_hollow_pyramid(n = 10 , inverted = True)
                   * 
 
 ```
+
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
 
 ---------------------------
@@ -453,6 +464,7 @@ star_patterns.get_star_diamond2()
 
 ```python
 # LET'S PRINT ALL STAR PATTERNS IN ONE STROKE WITH DEFAULT ARGUMENTS
+from pypatterns.star_patterns import *
 
 for func in dir(star_patterns) :
     if callable(getattr(star_patterns, func)) :
@@ -460,6 +472,41 @@ for func in dir(star_patterns) :
 ```
 ### Output of the above code is ;
 ```python
+
+*  *  *  *  *  
+*           *
+*           *
+*           *
+*  *  *  *  *  
+
+         *  *  *  *  * 
+       *           *
+     *           *
+   *           *
+ *  *  *  *  * 
+
+*  *  *  *  *  
+*  *  *  *  *  
+*  *  *  *  *  
+*  *  *  *  *  
+*  *  *  *  *  
+
+         *  *  *  *  * 
+       *  *  *  *  * 
+     *  *  *  *  * 
+   *  *  *  *  * 
+ *  *  *  *  * 
+
+             * 
+          *  *  * 
+       *  *  *  *  * 
+    *  *  *  *  *  *  * 
+ *  *  *  *  *  *  *  *  * 
+    *  *  *  *  *  *  * 
+       *  *  *  *  * 
+          *  *  * 
+             * 
+
               *   
            *     *   
         *     *     *   
@@ -468,7 +515,58 @@ for func in dir(star_patterns) :
      *     *     *     *   
         *     *     *   
            *     *   
-              *  
+              *   
+
+        *
+      *   *
+    *       *
+  *           *
+*               *
+  *           *
+    *       *
+      *   *
+        *
+
+        * 
+      *   *
+    *       *
+  *           *
+* * * * * * * * * 
+
+* 
+* *
+*   *
+*     *
+* * * * * 
+
+             * 
+          *  *  * 
+       *  *  *  *  * 
+    *  *  *  *  *  *  * 
+ *  *  *  *  *  *  *  *  * 
+
+         *  
+       *   *  
+     *   *   *  
+   *   *   *   *  
+ *   *   *   *   *  
+
+*  
+*  *  
+*  *  *  
+*  *  *  *  
+*  *  *  *  *  
+
+*               *
+  *           *
+    *       *
+      *   *
+        *
+      *   *
+    *       *
+  *           *
+*               *
+ 
 ```
 
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
@@ -480,19 +578,61 @@ for func in dir(star_patterns) :
 
 for func in dir(star_patterns) :
     if callable(getattr(star_patterns, func)) :
-        globals()[func](inverted = True)
+        if globals()[f'{func}'].__code__.co_varnames[1] == "inverted" :
+            globals()[func](inverted = True)
+        print()
 ```
 ### Output of the above code is ;
 ```python
-              *   
-           *     *   
-        *     *     *   
-     *     *     *     *   
-  *     *     *     *     *   
-     *     *     *     *   
-        *     *     *   
-           *     *   
-              *  
+
+ *  *  *  *  * 
+   *           *
+     *           *
+       *           *
+         *  *  *  *  * 
+
+
+ *  *  *  *  * 
+   *  *  *  *  * 
+     *  *  *  *  * 
+       *  *  *  *  * 
+         *  *  *  *  * 
+
+
+
+
+* * * * * * * * * 
+  *           *
+    *       *
+      *   *
+        * 
+
+* * * * * 
+*     *
+*   *
+* *
+* 
+
+ *  *  *  *  *  *  *  *  * 
+    *  *  *  *  *  *  * 
+       *  *  *  *  * 
+          *  *  * 
+             * 
+
+ *   *   *   *   *  
+   *   *   *   *  
+     *   *   *  
+       *   *  
+         *  
+
+*  *  *  *  *  
+*  *  *  *  
+*  *  *  
+*  *  
+*  
+
+
+ 
 ```
 
 
@@ -506,13 +646,13 @@ for func in dir(star_patterns) :
 # **Number Patterns** <a name = 'number-patterns'></a>
 
 ```python
-from pypatterns-575 import number_patterns
+from pypatterns import number_patterns
 ```
 
 ## **Pascal's Triangle** <a name = "pascal"></a>
 
 ```python
-number_patterns.get_pascal_triangle()
+number_patterns.get_pascal_triangle(n = 10)
 ```
 ### Output of the above code is ;
 
@@ -528,6 +668,8 @@ number_patterns.get_pascal_triangle()
      1         8         28        56        70        56        28        8         1         
 1         9         36        84        126       126       84        36        9         1  
 ```
+
+
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
 
 
@@ -555,20 +697,21 @@ number_patterns.get_triangle1()
 ## **Triangle2** <a name = "triangle2"></a>
 
 ```python
-number_patterns.get_triangle1(n = 8)
+number_patterns.get_triangle2(n = 8)
 ```
 ### Output of the above code is ;
 
 ```python
 1   
 2   3   
-4   5   6   
-7   8   9   10  
-11  12  13  14  15  
-16  17  18  19  20  21  
-22  23  24  25  26  27  28  
-29  30  31  32  33  34  35  36  
+3   4   5   
+4   5   6   7   
+5   6   7   8   9   
+6   7   8   9   10  11  
+7   8   9   10  11  12  13  
+8   9   10  11  12  13  14  15  
 ```
+
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
 
 ------------------------------------
@@ -576,7 +719,7 @@ number_patterns.get_triangle1(n = 8)
 ## **Pyramid1** <a name = "pyramid1"></a>
 
 ```python
-number_patterns.get_pyramid1(n = 8)
+alphabet_patterns.get_pyramid1(inverted = True)
 ```
 ### Output of the above code is ;
 
@@ -596,13 +739,13 @@ number_patterns.get_pyramid1(n = 8)
 # **Alphabet Patterns** <a name = 'alphabet-patterns'></a>
 
 ```python
-from pypatterns-575 import alphabet_patterns
+from pypatterns import alphabet_patterns
 ```
 
 ## **Triangle** <a name = "alpha-triangle"></a>
 
 ```python
-number_patterns.get_alpha_triangle()
+alphabet_patterns.get_alpha_triangle()
 ```
 ### Output of the above code is ;
 
@@ -622,7 +765,7 @@ K  L  M  N  O
 ## **Pyramid1** <a name = "alpha-pyramid1"></a>
 
 ```python
-number_patterns.get_alpha_pyramid1(inverted = True)
+alphabet_patterns.get_alpha_pyramid1(inverted = True)
 ```
 ### Output of the above code is ;
 
@@ -643,7 +786,7 @@ A  B  C  D  E  F  G  H  I
 ## **Pyramid2** <a name = "alpha-pyramid2"></a>
 
 ```python
-number_patterns.get_alpha_pyramid2(n = 10)
+alphabet_patterns.get_alpha_pyramid2(n = 10)
 ```
 ### Output of the above code is ;
 
@@ -669,16 +812,24 @@ T   U   V   W   X   Y   Z   A   B   C
 # **Pattern Code** <a name = 'pattern-code'></a>
 
 ```python
-from pypatterns-575 import get_pattern_code
+from pypatterns import get_pattern_code
 ```
 
 ```python
-get_patterns_code.get_star_triangle_code()
+get_pattern_code.get_star_triangle_code()
 ```
 ### Output of the above code is ;
 
 ```python
-CODE HERE
+def get_star_triangle(n = 5, inverted = False) :
+    if inverted == False :
+        for i in range(1 , n + 1) :
+            print("*  " * i)
+        return
+
+    for i in range(n , 0 , -1) :
+        print("*  " * i)
+get_star_triangle() 
 ```
 
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
@@ -686,12 +837,33 @@ CODE HERE
 ------------------------------------
 
 ```python
-get_patterns_code.get_pyramid1_code()
+get_pattern_code.get_pyramid1_code()
 ```
 ### Output of the above code is ;
 
 ```python
-CODE HERE
+def get_pyramid1(n = 5 , inverted = False) :
+    if n <= 0 or type(n) != int :
+        raise ValueError("Parameter n should be positive integer")
+
+    if inverted == False :
+        for i in range(1 , n+1) :
+            print(3*" " * (n - i) , end = "")
+            for j in range(1 , i + 1) :
+                print(str(j).ljust(3) , end = "")
+            for k in range(i-1 , 0 , -1) :
+                print(str(k).ljust(3) , end = "")
+            print()
+        return
+
+    for i in range(n , 0 , -1) :
+        print(3*" " * (n - i) , end = "")
+        for j in range(1 , i + 1) :
+            print(str(j).ljust(3) , end = "")
+        for k in range(i-1 , 0 , -1) :
+            print(str(k).ljust(3) , end = "")
+    print()
+get_pyramid1()
 ```
 
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
@@ -699,12 +871,31 @@ CODE HERE
 ------------------------------------
 
 ```python
-get_patterns_code.get_alpha_triangle_code()
+get_pattern_code.get_alpha_triangle_code()
 ```
 ### Output of the above code is ;
 
 ```python
-CODE HERE
+def get_alpha_triangle(n = 5 , inverted = False) :
+    asci = 65
+    if inverted == False :
+        for i in range(1 , n + 1) :
+            for j in range(i) :
+                print(chr(asci) , end = "  ")
+                asci += 1
+                if asci > 90 :
+                    asci = 65
+            print()
+        return
+        
+    for i in range(n , 0 , -1) :
+        for j in range(i) :
+            print(chr(asci) , end = "  ")
+            asci += 1
+            if asci > 90 :
+                asci = 65
+        print()
+get_alpha_triangle()
 ```
 
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
