@@ -257,7 +257,7 @@ star_patterns.get_star_pyramid()
     *  *  *  *  *  *  * 
  *  *  *  *  *  *  *  *  * 
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -277,7 +277,7 @@ star_patterns.get_star_hollow_pyramid()
 * * * * * * * * *  
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -304,7 +304,7 @@ star_patterns.get_star_pyramid(n = 10 , inverted = True)
                          *  *  * 
                             * 
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------
 
@@ -328,7 +328,7 @@ star_patterns.get_star_hollow_pyramid(n = 10 , inverted = True)
 
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ---------------------------
 ---------------------------
@@ -348,7 +348,7 @@ star_patterns.get_star_triangle()
 *  *  *  *  *  
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -366,7 +366,7 @@ star_patterns.get_star_triangle(n = 6, inverted = True)
 *  
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -384,7 +384,7 @@ star_patterns.get_star_hollow_triangle(n = 7)
 *         *
 * * * * * * *   
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 ------------------------------------
@@ -409,7 +409,7 @@ star_patterns.get_star_diamond()
              * 
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -435,7 +435,7 @@ star_patterns.get_star_hollow_diamond(n = 7)
               * 
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -456,7 +456,7 @@ star_patterns.get_star_diamond2()
 ```
 
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -569,7 +569,7 @@ for func in dir(star_patterns) :
  
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ---------------------------
 
@@ -636,7 +636,7 @@ for func in dir(star_patterns) :
 ```
 
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ---------------------------
@@ -670,7 +670,7 @@ number_patterns.get_pascal_triangle(n = 10)
 ```
 
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -690,7 +690,7 @@ number_patterns.get_triangle1()
 7   8   9   10  
 11  12  13  14  15 
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -712,14 +712,14 @@ number_patterns.get_triangle2(n = 8)
 8   9   10  11  12  13  14  15  
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
 ## **Pyramid1** <a name = "pyramid1"></a>
 
 ```python
-number_patterns.get_pyramid1(inverted = True)
+_patterns.get_pyramid1(inverted = True)
 ```
 ### Output of the above code is ;
 
@@ -730,7 +730,7 @@ number_patterns.get_pyramid1(inverted = True)
          1  2  1  
             1 
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -756,7 +756,7 @@ D  E  F
 G  H  I  J  
 K  L  M  N  O 
 ```
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -777,7 +777,7 @@ A  B  C  D  E  F  G  H  I
             Y
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 
 ------------------------------------
@@ -803,7 +803,7 @@ alphabet_patterns.get_alpha_pyramid2(n = 10)
 T   U   V   W   X   Y   Z   A   B   C 
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ---------------------------
 ---------------------------
@@ -832,7 +832,7 @@ def get_star_triangle(n = 5, inverted = False) :
 get_star_triangle() 
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -866,7 +866,7 @@ def get_pyramid1(n = 5 , inverted = False) :
 get_pyramid1()
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 
@@ -898,7 +898,7 @@ def get_alpha_triangle(n = 5 , inverted = False) :
 get_alpha_triangle()
 ```
 
-[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/LinkedList/blob/main/examples.ipynb)
+[CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
 
 ------------------------------------
 ------------------------------------
