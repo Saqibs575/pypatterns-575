@@ -50,7 +50,7 @@ Rooted in the idea of empowerment, the "`pypatterns-575`" package equips individ
       * [Diamond](#diamond)
     + [Number Patterns](#number-patterns)
       * [Pascal's Triangle](#pascal)
-      * [Triangle1](#triangle)
+      * [Triangle1](#triangle1)
       * [Triangle2](#triangle2)
       * [Pyramid1](#pyramid1)
     + [Alphabet Patterns](#alphabet-patterns)
