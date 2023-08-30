@@ -719,7 +719,7 @@ number_patterns.get_triangle2(n = 8)
 ## **Pyramid1** <a name = "pyramid1"></a>
 
 ```python
-alphabet_patterns.get_pyramid1(inverted = True)
+number_patterns.get_pyramid1(inverted = True)
 ```
 ### Output of the above code is ;
 
