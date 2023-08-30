@@ -1,0 +1,9 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "task.allowAutomaticTasks": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  }
+}
