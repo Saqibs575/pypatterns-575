@@ -176,7 +176,7 @@ To start using `pypatterns-575`, you can easily install it using the popular Pyt
 To get started with creating captivating patterns using the `pypatterns-575` package, follow these steps based on your operating system:
 
 ---------------------------
-## **Windows Users** <a name = "window"></a>
+## **Windows Users** <a name = "windows"></a>
 **Update `pip` (if needed)**: 
 Open the Command Prompt as an administrator by searching for "cmd" in the Start menu, right-clicking on "Command Prompt," and selecting "Run as administrator." Then, execute the following command to update pip:
 
