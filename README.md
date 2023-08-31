@@ -1,8 +1,6 @@
 # **pypatterns-575: Unlock a world of intricate pattern creation in Python** <br>
 
 
-![image](patterns\banner.png)<br>
-
 
 [![PyPI version](https://badge.fury.io/py/LinkedList-575.svg)](https://badge.fury.io/py/LinkedList-575) 
 [![PyPI](https://img.shields.io/pypi/v/LinkedList-575)](https://pypi.org/project/LinkedList-575/)
