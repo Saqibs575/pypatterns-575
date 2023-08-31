@@ -261,6 +261,3 @@ def get_alpha_pyramid2(n : int = 5 , inverted : bool = False) -> None :
         # Move to the next line after each row is printed
         print()
 
-get_alpha_triangle()
-get_alpha_pyramid1(inverted=1)
-get_alpha_pyramid2(n = 10)
