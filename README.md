@@ -5,8 +5,11 @@
 [![PyPI version](https://badge.fury.io/py/pypatterns-575.svg)](https://badge.fury.io/py/pypatterns-575) 
 [![PyPI](https://img.shields.io/pypi/v/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - License](https://img.shields.io/pypi/l/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/linkedlist-575)](https://pypi.org/project/pypatterns-575/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - Status](https://img.shields.io/pypi/status/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
+![PyPI Downloads](https://img.shields.io/pypi/dm/LinkedList-575)
+[![Total Downloads](https://static.pepy.tech/personalized-badge/LinkedList-575?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/LinkedList-575)
+
 
 ![GitHub](https://img.shields.io/github/license/Saqibs575/pypatterns-575)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Saqibs575/pypatterns-575?label=Pull%20Requests)](https://github.com/Saqibs575/pypatterns-575/pulls)
