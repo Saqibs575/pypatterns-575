@@ -62,7 +62,7 @@ def get_requirements(file_path : str) -> List[str] :
         return []
 
     # finally return a list of requirements excluding last elements if -e in requirements else return full list
-    if '-e .' in requirements :
+    if requirements[-1] == '-e .' :
         return requirements[:-1]
     else :
         return requirements
@@ -70,13 +70,13 @@ def get_requirements(file_path : str) -> List[str] :
 DIR_NAME = Path(__file__).parent
 VERSION = '1.0.0'
 AUTHOR = 'Saqib Shaikh'
-REPO_NAME = 'LinkedList'
+REPO_NAME = 'pypatterns-575'
 PROJECT_NAME = 'pypatterns_575'
 AUTHOR_USER_NAME = 'Saqibs575'
 AUTHOR_EMAIL = 'saquibs575@gmail.com'
 LICENSE = 'GNU General Public License v3.0'
 LONG_DESCRIPTION = (DIR_NAME / "README.md").read_text()
-URL = 'https://github.com/Saqibs575/LinkedList'
+URL = 'https://github.com/Saqibs575/pypatterns-575'
 DESCRIPTION = 'A Python package for LinkedList data structure.'
 REQUIREMENTS_FILE_PATH = os.path.join(os.getcwd() , 'requirements.txt')
 
@@ -107,11 +107,11 @@ setup(
     install_requires = get_requirements(REQUIREMENTS_FILE_PATH) ,
     
     keywords = [
-        'LinkedList', 
-        'linkedlist', 
-        'linked list', 
-        'linkedlist in python ', 
-        'linked list data-structure python package'
+        'patterns', 
+        'patterns in python', 
+        'start patterns', 
+        'pypatterns', 
+        'pypatterns-575'
         ] ,
 
     project_urls = {

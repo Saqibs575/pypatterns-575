@@ -1,8 +1,7 @@
-## **Unlock a world of intricate pattern creation in Python** <br>
+# **pypatterns-575: Unlock a world of intricate pattern creation in Python** <br>
 
 
-![image]()<br>
-
+![image](patterns\banner.png)<br>
 
 
 [![PyPI version](https://badge.fury.io/py/LinkedList-575.svg)](https://badge.fury.io/py/LinkedList-575) 
@@ -11,16 +10,16 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/linkedlist-575)](https://pypi.org/project/LinkedList-575/)
 [![PyPI - Status](https://img.shields.io/pypi/status/LinkedList-575)](https://pypi.org/project/LinkedList-575/)
 
-![GitHub](https://img.shields.io/github/license/Saqibs575/LinkedList)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Saqibs575/LinkedList?label=Pull%20Requests)](https://github.com/Saqibs575/LinkedList/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/Saqibs575/LinkedList?label=GitHub%20Issues)](https://github.com/Saqibs575/LinkedList/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList/commits/main)
-[![GitHub contributors](https://img.shields.io/github/contributors/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList/graphs/contributors)
-[![GitHub code size](https://img.shields.io/github/languages/code-size/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList)
-[![GitHub stars](https://img.shields.io/github/stars/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList/network)
-[![GitHub top language](https://img.shields.io/github/languages/top/Saqibs575/LinkedList)](https://github.com/Saqibs575/LinkedList)
+![GitHub](https://img.shields.io/github/license/Saqibs575/pypatterns-575)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Saqibs575/pypatterns-575?label=Pull%20Requests)](https://github.com/Saqibs575/pypatterns-575/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/Saqibs575/pypatterns-575?label=GitHub%20Issues)](https://github.com/Saqibs575/pypatterns-575/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575/graphs/contributors)
+[![GitHub code size](https://img.shields.io/github/languages/code-size/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575)
+[![GitHub stars](https://img.shields.io/github/stars/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575/network)
+[![GitHub top language](https://img.shields.io/github/languages/top/Saqibs575/pypatterns-575)](https://github.com/Saqibs575/pypatterns-575)
 
 -----------------------------
 -----------------------------
@@ -217,7 +216,7 @@ pip3 install pypatterns-575
 
 ---------------------------
 
-Once the installation is complete, you're ready to explore the world of intricate pattern design! For usage instructions and examples on how to create various patterns using the `pypatterns-575` package, please refer to the [Usage Guide](#linux-users).
+Once the installation is complete, you're ready to explore the world of intricate pattern design! For usage instructions and examples on how to create various patterns using the `pypatterns-575` package, please refer to the [Usage Guide](https://github.com/Saqibs575/pypatterns-575#usage-).
 
 Refer to the documentation and examples provided in the readme.md and documentation files for detailed instructions on using the package to create various patterns.
 
@@ -922,4 +921,4 @@ Contributions to the LinkedList package are welcome! If you find any bugs or hav
 
 &copy; 2023 Saqib Shaikh
 
-This package is distributed under the GNU General Public License v3.0 (GPLv3) License. See the [LICENSE](https://github.com/Saqibs575/LinkedList/blob/main/LICENSE) file for more details.
+This package is distributed under the GNU General Public License v3.0 (GPLv3) License. See the [LICENSE](https://github.com/Saqibs575/pypatterns-575/blob/main/LICENSE) file for more details.
