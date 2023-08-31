@@ -909,7 +909,19 @@ The `pypatterns-575` package simplifies the process of generating and printing p
 
 ## **Contributing** <a name = 'contributing'></a>
 
-Contributions to the LinkedList package are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request on GitHub.
+Contributions to the pypatterns-575 package are welcome! Whether you've found a bug, have suggestions for improvements, or want to add new features, your contributions can make this package even better.
+
+### How to Contribute
+
+1. **Open an Issue:** If you come across a bug or have an idea for an improvement, start by opening an issue on the [GitHub repository](https://github.com/Saqibs575/pypatterns-575/issues). Provide as much detail as possible about the issue or suggestion.
+
+2. **Fork the Repository:** If you plan to work on a fix or enhancement, fork the repository by clicking the "Fork" button on the top right of the repository page.
+
+3. **Clone the Fork:** Clone your forked repository to your local machine using the following command, replacing `<your-username>` with your GitHub username:
+
+   ```sh
+   git clone https://github.com/<your-username>/pypatterns-575.git
+  ```
 
 -------------------------------------
 -------------------------------------
@@ -917,6 +929,24 @@ Contributions to the LinkedList package are welcome! If you find any bugs or hav
 
 ## **License** <a name = 'license'></a>
 
-&copy; 2023 Saqib Shaikh
+**Copyright &copy; 2023 Saqib Shaikh**
 
-This package is distributed under the GNU General Public License v3.0 (GPLv3) License. See the [LICENSE](https://github.com/Saqibs575/pypatterns-575/blob/main/LICENSE) file for more details.
+This software package, named "Your Package Name," is distributed under the terms of the GNU General Public License version 3.0 (GPLv3). This license grants you the freedom to use, modify, and distribute this software according to the conditions set forth in the license text.
+
+### License Summary
+
+The GNU General Public License v3.0 (GPLv3) is an open-source license that ensures software remains free and open for all users. It provides the following key permissions and restrictions:
+
+- **Permissions:** You are free to use, share, and modify the software.
+- **Copyleft:** Any modified versions of the software must also be distributed under the GPLv3 license terms.
+- **Distribution:** If you distribute the software, you must include the source code or a written offer to provide it.
+- **Patents:** The license explicitly deals with patents, ensuring users can use the software without concerns about potential patent claims.
+
+### License Text
+
+For the full text of the GNU General Public License v3.0 (GPLv3), please refer to the [LICENSE](https://github.com/Saqibs575/pypatterns-575/blob/main/LICENSE) file located in the repository. This license outlines the complete terms and conditions that apply to this software.
+
+It's important to carefully read and understand the license terms before using or distributing this software.
+
+For any questions or inquiries regarding the license, please contact Saqib Shaikh at saquibs575@gmail.com.
+

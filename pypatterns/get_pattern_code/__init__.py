@@ -658,9 +658,6 @@ def get_triangle1_code() -> None :
 
     code = """
 def get_triangle1(n = 5 , inverted = False) :
-    if n <= 0 or type(n) != int :
-        raise ValueError("Parameter n should be positive integer")
-
     spacing = len(str(n * (n + 1) // 2)) 
     start = 1
 
@@ -707,9 +704,6 @@ def get_triangle2_code() -> None :
 
     code = """
 def get_triangle2(n = 5 , inverted = False) :
-    if n <= 0 or type(n) != int :
-        raise ValueError("Parameter n should be positive integer")    
-
     spacing = len(str(n)) + 1
     if inverted == False :
         for i in range(1 , n + 1) :
@@ -752,9 +746,6 @@ def get_pyramid1_code() -> None :
 
     code = """
 def get_pyramid1(n = 5 , inverted = False) :
-    if n <= 0 or type(n) != int :
-        raise ValueError("Parameter n should be positive integer")
-
     if inverted == False :
         for i in range(1 , n+1) :
             print(3*" " * (n - i) , end = "")
@@ -855,9 +846,6 @@ def get_pascal_triangle_code() -> None :
 
     code = """
 def get_pascal_triangle(n = 5) :
-    if n <= 0 or type(n) != int :
-        raise ValueError("parameter n should be positive integer")
-    
     if n < 10 :
         spacing = 3
     elif n <= 20 :
