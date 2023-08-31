@@ -553,7 +553,7 @@ def get_alpha_pyramid1_code() -> None :
     """
 
     code = """
-def get_alpha_pyramid1(n = 5 , inverted = True) :
+def get_alpha_pyramid1(n = 5 , inverted = False) :
     asci = 65
     if inverted == False :
         for i in range(1 , n + 1) :
