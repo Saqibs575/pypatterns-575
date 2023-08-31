@@ -2,11 +2,11 @@
 
 
 
-[![PyPI version](https://badge.fury.io/py/LinkedList-575.svg)](https://badge.fury.io/py/LinkedList-575) 
-[![PyPI](https://img.shields.io/pypi/v/LinkedList-575)](https://pypi.org/project/LinkedList-575/)
-[![PyPI - License](https://img.shields.io/pypi/l/LinkedList-575)](https://pypi.org/project/LinkedList_575/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/linkedlist-575)](https://pypi.org/project/LinkedList-575/)
-[![PyPI - Status](https://img.shields.io/pypi/status/LinkedList-575)](https://pypi.org/project/LinkedList-575/)
+[![PyPI version](https://badge.fury.io/py/pypatterns-575.svg)](https://badge.fury.io/py/pypatterns-575) 
+[![PyPI](https://img.shields.io/pypi/v/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
+[![PyPI - License](https://img.shields.io/pypi/l/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/linkedlist-575)](https://pypi.org/project/pypatterns-575/)
+[![PyPI - Status](https://img.shields.io/pypi/status/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 
 ![GitHub](https://img.shields.io/github/license/Saqibs575/pypatterns-575)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Saqibs575/pypatterns-575?label=Pull%20Requests)](https://github.com/Saqibs575/pypatterns-575/pulls)
@@ -716,7 +716,7 @@ number_patterns.get_triangle2(n = 8)
 ## **Pyramid1** <a name = "pyramid1"></a>
 
 ```python
-_patterns.get_pyramid1(inverted = True)
+number_patterns.get_pyramid1(inverted = True)
 ```
 ### Output of the above code is ;
 
