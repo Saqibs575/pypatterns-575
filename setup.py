@@ -77,7 +77,7 @@ AUTHOR_EMAIL = 'saquibs575@gmail.com'
 LICENSE = 'GNU General Public License v3.0'
 LONG_DESCRIPTION = (DIR_NAME / "README.md").read_text()
 URL = 'https://github.com/Saqibs575/pypatterns-575'
-DESCRIPTION = 'A Python package for LinkedList data structure.'
+DESCRIPTION = 'A Python package for creating intricate patterns.'
 REQUIREMENTS_FILE_PATH = os.path.join(os.getcwd() , 'requirements.txt')
 
 
