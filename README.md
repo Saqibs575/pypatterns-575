@@ -907,11 +907,11 @@ The `pypatterns-575` package simplifies the process of generating and printing p
 ---------------------------
 
 
-## **Contributing** <a name = 'contributing'></a>
+# **Contributing** <a name = 'contributing'></a>
 
 Contributions to the pypatterns-575 package are welcome! Whether you've found a bug, have suggestions for improvements, or want to add new features, your contributions can make this package even better.
 
-### How to Contribute
+## **How to Contribute**
 
 1. **Open an Issue:** If you come across a bug or have an idea for an improvement, start by opening an issue on the [GitHub repository](https://github.com/Saqibs575/pypatterns-575/issues). Provide as much detail as possible about the issue or suggestion.
 
@@ -919,15 +919,45 @@ Contributions to the pypatterns-575 package are welcome! Whether you've found a 
 
 3. **Clone the Fork:** Clone your forked repository to your local machine using the following command, replacing `<your-username>` with your GitHub username:
 
-   ```sh
+```sh
    git clone https://github.com/<your-username>/pypatterns-575.git
-  ```
+```
+
+## **Create a Branch**:
+Before making changes, create a new branch to work on. This helps keep your changes isolated from the main codebase. Use a descriptive branch name related to the feature or bug you're addressing:
+
+```sh
+git checkout -b feature/my-new-feature
+```
+
+## **Make Changes**: 
+Write your code and make the necessary changes. Follow any coding style guidelines and keep the changes focused on a single issue or feature.
+
+## **Test Your Changes**: 
+Before submitting a pull request, make sure your changes work as intended and do not introduce new issues. Run tests if available and perform manual testing if needed.
+
+## **Commit and Push**: 
+Commit your changes and push them to your forked repository:
+
+```sh
+git commit -m "Add a descriptive commit message"
+git push origin feature/my-new-feature
+```
+
+## **Submit a Pull Request**: 
+Go to the [original repository](https://github.com/Saqibs575/pypatterns-575) and click the "New Pull Request" button. Select your branch and provide a detailed description of your changes. A team member will review your pull request and provide feedback.
+
+## **Code of Conduct**
+Please note that this project follows a Code of Conduct. By participating in this project, you agree to abide by its terms.
+
+Thank you for contributing to the pypatterns-575 package! Your efforts are greatly appreciated.
+
 
 -------------------------------------
 -------------------------------------
 
 
-## **License** <a name = 'license'></a>
+# **License** <a name = 'license'></a>
 
 **Copyright &copy; 2023 Saqib Shaikh**
 
