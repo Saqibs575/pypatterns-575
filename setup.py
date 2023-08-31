@@ -109,7 +109,7 @@ setup(
     keywords = [
         'patterns', 
         'patterns in python', 
-        'start patterns', 
+        'star patterns', 
         'pypatterns', 
         'pypatterns-575'
         ] ,
