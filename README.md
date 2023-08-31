@@ -97,7 +97,7 @@ WORKSPACE
     |
     |--> LICENSE
     |
-    |--> logo.png
+    |--> banner.png
     |
     |--> README.md
     |
