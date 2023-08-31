@@ -920,7 +920,7 @@ Contributions to the pypatterns-575 package are welcome! Whether you've found a 
 3. **Clone the Fork:** Clone your forked repository to your local machine using the following command, replacing `<your-username>` with your GitHub username:
 
 ```sh
-   git clone https://github.com/<your-username>/pypatterns-575.git
+git clone https://github.com/<your-username>/pypatterns-575.git
 ```
 
 ## **Create a Branch**:
@@ -939,7 +939,7 @@ Before submitting a pull request, make sure your changes work as intended and do
 ## **Commit and Push**: 
 Commit your changes and push them to your forked repository:
 
-```sh
+```python
 git commit -m "Add a descriptive commit message"
 git push origin feature/my-new-feature
 ```
