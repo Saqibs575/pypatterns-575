@@ -299,7 +299,7 @@ def get_star_diamond2(n = 5) :
         print("   " * (n - i) + "  *   " * i)
     for i in range(n - 1 , 0 , -1) :
         print("   " * (n - i) + "  *   " * i)
-get_star_diamond()
+get_star_diamond2()
 """
 
     highlighted_code = highlight(code, lexer, formatter)
