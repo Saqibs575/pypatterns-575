@@ -1,3 +1,7 @@
+## **Project Description**
+
+![image](banner.png)
+
 # **pypatterns-575: Unlock a world of intricate pattern creation in Python** <br>
 
 
@@ -7,8 +11,7 @@
 [![PyPI - License](https://img.shields.io/pypi/l/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - Status](https://img.shields.io/pypi/status/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
-![PyPI Downloads](https://img.shields.io/pypi/dm/pypatterns-575)
-[![Total Downloads](https://static.pepy.tech/personalized-badge/pypatterns-575?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/pypatterns-575)
+
 
 
 ![GitHub](https://img.shields.io/github/license/Saqibs575/pypatterns-575)
