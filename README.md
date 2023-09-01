@@ -955,12 +955,6 @@ git push origin feature/my-new-feature
 ## **Submit a Pull Request**: 
 Go to the [original repository](https://github.com/Saqibs575/pypatterns-575) and click the "New Pull Request" button. Select your branch and provide a detailed description of your changes. A team member will review your pull request and provide feedback.
 
-## **Code of Conduct**
-Please note that this project follows a Code of Conduct. By participating in this project, you agree to abide by its terms.
-
-Thank you for contributing to the pypatterns-575 package! Your efforts are greatly appreciated.
-
-
 -------------------------------------
 -------------------------------------
 
