@@ -454,17 +454,17 @@ def get_star_diamond2(n : int = 5) -> None :
     Example:
 
         To print an upright diamond with 5 rows:
-        get_star_diamond(5)
+        get_star_diamond2(5)
         ```
-                    * 
-                 *  *  * 
-              *  *  *  *  * 
-           *  *  *  *  *  *  * 
-        *  *  *  *  *  *  *  *  * 
-           *  *  *  *  *  *  * 
-              *  *  *  *  * 
-                 *  *  * 
-                    * 
+                    *   
+                 *     *   
+              *     *     *   
+           *     *     *     *   
+        *     *     *     *     *   
+           *     *     *     *   
+              *     *     *   
+                 *     *   
+                    *   
         ```
 
     Note:
