@@ -237,14 +237,16 @@ All types of patterns can be found in pypatterns file of `pypapatterns-575` pack
 ```python
 pip install pypatterns-575
 ```
-```python
-from pypatterns import star_patterns
-```
+
 ---------------------------
 ---------------------------
 
 
 # **Star Patterns** <a name = 'star-patterns'></a>
+
+```python
+from pypatterns import star_patterns
+```
 
 ## **Pyramid** <a name = "pyramid"></a>
 
