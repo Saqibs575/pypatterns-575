@@ -1,6 +1,16 @@
-class get_name :
-    def __init__(self, name) :
-        pass
+from numpy import array
+class Name :
+    def get_name(self, name, symbol=None) :
+        alphabets = self.__all_alphabets()
+        try :
+            lst = array([alphabets[letter] for letter in name.upper()]).flatten(order="F")
+            if symbol :
+                lst = array([i.replace("*", symbol[0]) for i in lst])
+            lst = lst.reshape((-1,len(name)))
+            for i in lst :
+                print("".join(i))
+        except Exception as e:
+            raise ValueError("Can Pass only alphabets and spaces")
 
     def __all_alphabets(self) :
     # ALL ALPHABETS        
@@ -64,7 +74,7 @@ class get_name :
                 '* * * * *   '
             ]
 
-        E = [
+        F = [
                 '* * * * *   ',
                 '*           ',
                 '*           ',
@@ -112,7 +122,7 @@ class get_name :
                 '* * * * *   '
             ]
 
-        I = [
+        J = [
                 ' * * * * *  ',
                 '     *      ',
                 '     *      ',
@@ -232,7 +242,6 @@ class get_name :
                 '   * * *     '
             ]
 
-
         T = [
                 '* * * * * * *  ',
                 '      *        ',
@@ -281,7 +290,7 @@ class get_name :
                 '*         *  '
             ]
 
-        W = [
+        X = [
                 '*       *  ',
                 ' *     *   ',
                 '  *   *    ',
@@ -317,6 +326,18 @@ class get_name :
                 '* * * * * * * *  '
             ]
 
+        sp = [
+                '     ',
+                '     ',
+                '     ',
+                '     ',
+                '     ',
+                '     ',
+                '     ',
+                '     ',
+                '     '
+            ]
+
         return {
                   "A" : A, "B" : B, "C" : C, "D" : D,
                   "E" : E, "F" : F, "G" : G, "H" : H,
@@ -324,8 +345,5 @@ class get_name :
                   "M" : M, "N" : N, "O" : O, "P" : P,
                   "Q" : Q, "R" : R, "S" : S, "T" : T,
                   "U" : U, "V" : V, "W" : W, "X" : X,
-                  "Y" : Y, "Z" : Z
+                  "Y" : Y, "Z" : Z, " " : sp
                }
-
-    
-               
