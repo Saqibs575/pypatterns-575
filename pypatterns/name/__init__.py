@@ -1,14 +1,20 @@
-from numpy import array
 class Name :
-    def get_name(self, name, symbol=None) :
+    def get_name(self, name, symbol=None, animate=False) :
+        if animate :
+            time = 0.02
+        else :
+            time = 0
         alphabets = self.__all_alphabets()
         try :
-            lst = array([alphabets[letter] for letter in name.upper()]).flatten(order="F")
-            if symbol :
-                lst = array([i.replace("*", symbol[0]) for i in lst])
-            lst = lst.reshape((-1,len(name)))
-            for i in lst :
-                print("".join(i))
+            if not symbol :
+                symbol = "*"
+            lst = [alphabets[letter] for letter in name.upper()]
+            for i in range(9) :
+                for j in range(len(name)) :
+                    print(lst[j][i].replace("*", symbol), end="")
+                    sleep(time)
+                sleep(time)
+                print()
         except Exception as e:
             raise ValueError("Can Pass only alphabets and spaces")
 

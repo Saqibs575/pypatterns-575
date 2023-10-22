@@ -1,6 +1,6 @@
 from pypatterns.name import Name
 
-def get_name(name=None, symbol=None):
+def get_name(name=None, symbol=None, animate=False):
 
     """
     Generate and print your name consisting of any symbol from keyboard (`*` id default).
@@ -38,4 +38,4 @@ def get_name(name=None, symbol=None):
         - name parameter is case insensitive. Patterns always printed in upper case.
     """
 
-    Name().get_name(name, symbol)
+    Name().get_name(name, symbol, animate)
