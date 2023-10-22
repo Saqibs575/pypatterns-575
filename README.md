@@ -8,6 +8,8 @@
 
 [![PyPI version](https://badge.fury.io/py/pypatterns-575.svg)](https://badge.fury.io/py/pypatterns-575) 
 [![PyPI](https://img.shields.io/pypi/v/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/pypatterns-575.svg)](https://pypi.python.org/pypi/pypatterns-575/)
+[![Downloads](https://static.pepy.tech/badge/pypatterns-575)](https://pepy.tech/project/pypatterns-575)
 [![PyPI - License](https://img.shields.io/pypi/l/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
 [![PyPI - Status](https://img.shields.io/pypi/status/pypatterns-575)](https://pypi.org/project/pypatterns-575/)
@@ -47,6 +49,7 @@ Rooted in the idea of empowerment, the "`pypatterns-575`" package equips individ
    - [macOS Users](#macOS)
    - [Linux Users](#linux)
 - [Usage](#usage)
+    + [Name Patterns](#name-patterns)
     + [Star Patterns](#star-patterns)
       * [Pyramid](#pyramid)
       * [Triangle](#triangle)
@@ -241,6 +244,43 @@ pip install pypatterns-575
 ---------------------------
 ---------------------------
 
+
+# **Name Patterns** <a name = 'name-patterns'></a>
+
+```python
+from pypatterns.name_patterns import get_name
+```
+
+```python
+get_name("SAQIB SHAIKH")
+```
+
+```python
+   * * *         * *         * * *     * * * * *   * * * *             * * *     *         *      * *      * * * * *   *         *  *         *  
+ *       *     *     *     *       *       *       *       *         *       *   *         *    *     *        *       *       *    *         *  
+*             *       *   *         *      *       *        *       *            *         *   *       *       *       *     *      *         *  
+ *           *         *  *         *      *       *       *         *           *         *  *         *      *       *   *        *         *  
+   * * *     * * * * * *  *         *      *       * * * *             * * *     * * * * * *  * * * * * *      *       * *          * * * * * *  
+         *   *         *  *         *      *       *       *                 *   *         *  *         *      *       *   *        *         *  
+          *  *         *  *      *  *      *       *        *                 *  *         *  *         *      *       *     *      *         *  
+ *       *   *         *   *       *       *       *       *         *       *   *         *  *         *      *       *       *    *         *  
+   * * *     *         *     * * *   * * * * * *   * * * *             * * *     *         *  *         *  * * * * *   *         *  *         * 
+```
+```python
+get_name(name="SAQIB", symbol="/")
+```
+
+```python
+   / / /         / /         / / /     / / / / /   / / / /     
+ /       /     /     /     /       /       /       /       /   
+/             /       /   /         /      /       /        /  
+ /           /         /  /         /      /       /       /   
+   / / /     / / / / / /  /         /      /       / / / /     
+         /   /         /  /         /      /       /       /   
+          /  /         /  /      /  /      /       /        /  
+ /       /   /         /   /       /       /       /       /   
+   / / /     /         /     / / /   / / / / / /   / / / /     
+```
 
 # **Star Patterns** <a name = 'star-patterns'></a>
 

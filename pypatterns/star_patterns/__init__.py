@@ -429,12 +429,12 @@ def get_star_diamond(n : int = 5) -> None :
     # Iterate through a range of numbers from 1 to (n + 1).
     for i in range(1 , n + 1) :
         # For each iteration, print spaces multiplied by (n - i) and asterisks multiplied by (2 * i - 1).
-        print("   " * (n - i) + " * " * (2 * i - 1))
+        print("  " * (n - i) + "* " * (2 * i - 1))
 
     # Iterate through a range of numbers from (n - 1) down to 1.
     for i in range(n - 1 , 0 , -1) :
         # For each iteration, print spaces multiplied by (n - i) and asterisks multiplied by (2 * i - 1).
-        print("   " * (n - i) + " * " * (2 * i - 1))
+        print("  " * (n - i) + "* " * (2 * i - 1))
 
 # GET STAR DIAMOND2
 def get_star_diamond2(n : int = 5) -> None :
@@ -481,12 +481,12 @@ def get_star_diamond2(n : int = 5) -> None :
     # Iterate through a range of numbers from 1 to (n + 1).
     for i in range(1 , n + 1) :
         # For each iteration, print spaces multiplied by (n - i) and asterisks multiplied by (2 * i - 1).
-        print("   " * (n - i) + "  *   " * i)
+        print("  " * (n - i) + " *  " * i)
 
     # Iterate through a range of numbers from (n - 1) down to 1.
     for i in range(n - 1 , 0 , -1) :
         # For each iteration, print spaces multiplied by (n - i) and asterisks multiplied by (2 * i - 1).
-        print("   " * (n - i) + "  *   " * i)
+        print("  " * (n - i) + " *  " * i)
 
 # GET STAR HOLLOW DIAMOND
 def get_star_hollow_diamond(n : int = 5) -> None :

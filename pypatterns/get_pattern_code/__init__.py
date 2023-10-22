@@ -227,9 +227,9 @@ def get_star_diamond_code() -> None :
     code = """
 def get_star_diamond(n = 5) :
     for i in range(1 , n + 1) :
-        print("   " * (n - i) + " * " * (2 * i - 1))
+        print("  " * (n - i) + "* " * (2 * i - 1))
     for i in range(n - 1 , 0 , -1) :
-        print("   " * (n - i) + " * " * (2 * i - 1))
+        print("  " * (n - i) + "* " * (2 * i - 1))
 get_star_diamond()
     """
 
@@ -296,9 +296,9 @@ def get_star_diamond2_code() -> None :
     code = """
 def get_star_diamond2(n = 5) :
     for i in range(1 , n + 1) :
-        print("   " * (n - i) + "  *   " * i)
+        print("  " * (n - i) + " *  " * i)
     for i in range(n - 1 , 0 , -1) :
-        print("   " * (n - i) + "  *   " * i)
+        print("  " * (n - i) + " *  " * i)
 get_star_diamond2()
 """
 
