@@ -1,3 +1,6 @@
+## **Project Description**
+
+![image](banner.png)
 
 ## **pypatterns-575: Unlock a world of intricate pattern creation in Python** <br>
 
@@ -82,7 +85,13 @@ WORKSPACE
     |        |
     |        |--> get_pattern_code
     |        |         |
-    |        |         |--> base_list.py
+    |        |         |--> __init__.py
+    |        |
+    |        |--> name_patterns
+    |        |         |
+    |        |         |--> __init__.py
+    |        |         |
+    |        |         |--> name.py
     |        |
     |        |--> number_patterns
     |        |         |
@@ -90,7 +99,7 @@ WORKSPACE
     |        |
     |        |--> star_patterns
     |        |         |
-    |        |         |--> base_list.py
+    |        |         |--> __init__.py
     |        |
     |        |--> __init__.py
     |   
@@ -100,6 +109,8 @@ WORKSPACE
     |--> .gitignore
     |
     |--> LICENSE
+    |
+    |--> MANIFEST.in
     |
     |--> banner.png
     |
