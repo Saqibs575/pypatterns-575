@@ -1,4 +1,4 @@
-from datetime import sleep
+from time import sleep
 class Name :
     def get_name(self, name, symbol=None, animate=False) :
         if animate :
