@@ -443,15 +443,15 @@ star_patterns.get_star_diamond()
 ### Output of the above code is ;
 
 ```python
-             * 
-          *  *  * 
-       *  *  *  *  * 
-    *  *  *  *  *  *  * 
- *  *  *  *  *  *  *  *  * 
-    *  *  *  *  *  *  * 
-       *  *  *  *  * 
-          *  *  * 
-             * 
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
 ```
 
 [CLICK HERE FOR CODE'S OUTPUT](https://github.com/Saqibs575/pypatterns-575/blob/main/examples.ipynb)
@@ -489,15 +489,15 @@ star_patterns.get_star_diamond2()
 ```
 ### Output of the above code is ;
 ```python
-              *   
-           *     *   
-        *     *     *   
-     *     *     *     *   
-  *     *     *     *     *   
-     *     *     *     *   
-        *     *     *   
-           *     *   
-              *  
+         *  
+       *   *  
+     *   *   *  
+   *   *   *   *  
+ *   *   *   *   *  
+   *   *   *   *  
+     *   *   *  
+       *   *  
+         *  
 ```
 
 
@@ -542,25 +542,25 @@ for func in dir(star_patterns) :
    *  *  *  *  * 
  *  *  *  *  * 
 
-             * 
-          *  *  * 
-       *  *  *  *  * 
-    *  *  *  *  *  *  * 
- *  *  *  *  *  *  *  *  * 
-    *  *  *  *  *  *  * 
-       *  *  *  *  * 
-          *  *  * 
-             * 
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
 
-              *   
-           *     *   
-        *     *     *   
-     *     *     *     *   
-  *     *     *     *     *   
-     *     *     *     *   
-        *     *     *   
-           *     *   
-              *   
+         *  
+       *   *  
+     *   *   *  
+   *   *   *   *  
+ *   *   *   *   *  
+   *   *   *   *  
+     *   *   *  
+       *   *  
+         *  
 
         *
       *   *
