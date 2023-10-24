@@ -2,7 +2,7 @@ from time import sleep
 class Name :
     def get_name(self, name, symbol=None, animate=False) :
         if animate :
-            time = 0.02
+            time = 0.09
         else :
             time = 0
         alphabets = self.__all_alphabets()
@@ -14,7 +14,6 @@ class Name :
                 for j in range(len(name)) :
                     print(lst[j][i].replace("*", symbol), end="")
                     sleep(time)
-                sleep(time)
                 print()
         except Exception as e:
             raise ValueError("Only alphabets and spaces are allowed")

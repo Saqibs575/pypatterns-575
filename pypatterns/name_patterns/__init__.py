@@ -1,6 +1,6 @@
 from pypatterns.name import Name
 
-def get_names(name=None, symbol=None, animate=False):
+def get_name(name=None, symbol=None, animate=False):
 
     """
     Generate and print your name consisting of any symbol from keyboard (`*` id default).
