@@ -1,6 +1,6 @@
 from pypatterns.name import Name
 
-def get_name(name=None, symbol=None, animate=False):
+def get_names(name=None, symbol=None, animate=False):
 
     """
     Generate and print your name consisting of any symbol from keyboard (`*` id default).
@@ -37,5 +37,11 @@ def get_name(name=None, symbol=None, animate=False):
           Just function calling will print the pattern.
         - name parameter is case insensitive. Patterns always printed in upper case.
     """
-
-    Name().get_name(name, symbol, animate)
+    if len(name) <= 16 :
+        Name().get_name(name, symbol, animate)
+    elif 17 <= len(name) <= 32 :
+        Name().get_name(name[:16], symbol, animate)
+        print()
+        Name().get_name(name[16:], symbol, animate)
+    else :
+        raise ValueError("Your Name is too large Please give some short name.")

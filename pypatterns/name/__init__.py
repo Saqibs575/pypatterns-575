@@ -1,3 +1,4 @@
+from datetime import sleep
 class Name :
     def get_name(self, name, symbol=None, animate=False) :
         if animate :
@@ -16,7 +17,7 @@ class Name :
                 sleep(time)
                 print()
         except Exception as e:
-            raise ValueError("Can Pass only alphabets and spaces")
+            raise ValueError("Only alphabets and spaces are allowed")
 
     def __all_alphabets(self) :
     # ALL ALPHABETS        
