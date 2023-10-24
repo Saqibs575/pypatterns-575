@@ -1,6 +1,3 @@
-## **Project Description**
-
-![image](banner.png)
 
 ## **pypatterns-575: Unlock a world of intricate pattern creation in Python** <br>
 

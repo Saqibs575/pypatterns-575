@@ -68,7 +68,7 @@ def get_requirements(file_path : str) -> List[str] :
         return requirements
         
 DIR_NAME = Path(__file__).parent
-VERSION = '2.0.0'
+VERSION = '2.0.1'
 AUTHOR = 'Saqib Shaikh'
 REPO_NAME = 'pypatterns-575'
 PROJECT_NAME = 'pypatterns_575'
