@@ -1011,7 +1011,7 @@ Go to the [original repository](https://github.com/Saqibs575/pypatterns-575) and
 
 **Copyright &copy; 2023 Saqib Shaikh**
 
-This software package, named "Your Package Name," is distributed under the terms of the GNU General Public License version 3.0 (GPLv3). This license grants you the freedom to use, modify, and distribute this software according to the conditions set forth in the license text.
+This software package, named "pypatterns-575," is distributed under the terms of the GNU General Public License version 3.0 (GPLv3). This license grants you the freedom to use, modify, and distribute this software according to the conditions set forth in the license text.
 
 ### License Summary
 
